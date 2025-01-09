@@ -2010,16 +2010,6 @@
 		)
 		(uuid "fe233f9c-a6b1-4284-a56a-88b3fd39ed94")
 	)
-	(text "MISO MOSI SCK?\nPWM: PWM1-TIM_CH3, PWM2-TIM_CH4?\nLED?"
-		(exclude_from_sim no)
-		(at 193.04 88.646 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a1c48174-50f0-45c4-85de-a9ffc3106da8")
-	)
 	(label "CAN_TXD"
 		(at 104.14 78.74 0)
 		(fields_autoplaced yes)
@@ -2280,7 +2270,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 73.66 50.8063 0)
 			(effects
 				(font
@@ -2585,7 +2575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 85.09 50.8063 0)
 			(effects
 				(font
@@ -2886,7 +2876,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 110.49 50.8062 0)
 			(effects
 				(font

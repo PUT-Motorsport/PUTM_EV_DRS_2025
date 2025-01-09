@@ -624,6 +624,26 @@
     [
       "b652b05a-4e3d-4ad1-b032-18886abe7d45",
       "Root"
+    ],
+    [
+      "5a98a3dd-0349-471b-8829-e40d62018b04",
+      "Control"
+    ],
+    [
+      "f0a4fad5-12a5-4cd4-a7cd-45262b948f10",
+      "Servo"
+    ],
+    [
+      "29f85ecd-7b45-4817-8022-029f79a199a0",
+      "Power"
+    ],
+    [
+      "b1fd2a01-bf35-4031-ba71-28db4e5321a0",
+      "CAN"
+    ],
+    [
+      "f3e8ebf7-786b-493f-9dff-a3955a7183ae",
+      "Connectors"
     ]
   ],
   "text_variables": {

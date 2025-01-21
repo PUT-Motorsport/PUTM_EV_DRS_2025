@@ -1213,11 +1213,11 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1230,7 +1230,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1256,7 +1256,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1274,7 +1274,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1312,11 +1312,11 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2422,17 +2422,6 @@
 		)
 		(uuid "26c4ef3b-726e-4415-a329-2433f38ca13d")
 	)
-	(label "RST"
-		(at 123.19 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44982026-c72a-4df9-92cc-3e9f1f47c8f5")
-	)
 	(label "SPI2_MOSI"
 		(at 186.69 93.98 180)
 		(fields_autoplaced yes)
@@ -2576,6 +2565,28 @@
 		)
 		(uuid "fb3ad97b-2f75-4f66-a6b9-2f62748370c2")
 	)
+	(global_label "RST"
+		(shape input)
+		(at 123.19 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7e9c406-b374-4dee-9b01-b2b7cef8a631")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.6223 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "USB{D- D+}"
 		(shape input)
 		(at 193.04 106.68 0)
@@ -2649,7 +2660,7 @@
 		(uuid "bcddf497-574b-4e66-a0d1-a083c09ceb3b")
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 72.39 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2657,8 +2668,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "19eea391-be07-4ea4-b5be-eef17281be97")
-		(property "Reference" "#PWR02"
+		(uuid "1f439f57-620e-48e1-8388-45fadb673f2b")
+		(property "Reference" "#PWR029"
 			(at 72.39 57.15 0)
 			(effects
 				(font
@@ -2667,7 +2678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 72.39 48.26 0)
 			(effects
 				(font
@@ -2693,7 +2704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 72.39 53.34 0)
 			(effects
 				(font
@@ -2703,12 +2714,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "19875191-0bf4-4d1b-b9bc-6efad27a6562")
+			(uuid "12a934a6-cccc-4fe3-8e10-e7595daa12c4")
 		)
 		(instances
 			(project "drs"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/5a98a3dd-0349-471b-8829-e40d62018b04"
-					(reference "#PWR02")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3554,7 +3565,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 109.22 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3562,8 +3573,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe1d0f34-337d-4cc2-a90c-7c7c88c89b91")
-		(property "Reference" "#PWR07"
+		(uuid "cfb4fb42-036a-4f64-96a3-472a97fe0d0d")
+		(property "Reference" "#PWR02"
 			(at 109.22 85.09 0)
 			(effects
 				(font
@@ -3572,7 +3583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 109.22 76.2 0)
 			(effects
 				(font
@@ -3598,7 +3609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 109.22 81.28 0)
 			(effects
 				(font
@@ -3608,12 +3619,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "635ef20b-2eba-473e-9ae8-85a58281cca5")
+			(uuid "6cb37eda-4598-4bf5-a84e-21f6e5daffa0")
 		)
 		(instances
 			(project "drs"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/5a98a3dd-0349-471b-8829-e40d62018b04"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

@@ -372,11 +372,11 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -389,7 +389,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -415,7 +415,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -433,7 +433,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -471,11 +471,11 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -667,16 +667,6 @@
 		)
 		(uuid "07f99d31-0db1-4c75-a80b-cddc5cd3bc69")
 	)
-	(wire
-		(pts
-			(xy 155.575 110.49) (xy 163.195 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd7a783-c0d4-4994-a580-13a2ab933b07")
-	)
 	(bus
 		(pts
 			(xy 165.735 95.25) (xy 169.545 95.25)
@@ -689,6 +679,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.195 107.95) (xy 163.195 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c2bfad-38a7-47c2-9b2e-13341a105313")
+	)
+	(wire
+		(pts
 			(xy 155.575 100.33) (xy 163.195 100.33)
 		)
 		(stroke
@@ -696,6 +696,16 @@
 			(type default)
 		)
 		(uuid "52dc4dcc-ba6e-4196-8346-5293a8795b2f")
+	)
+	(wire
+		(pts
+			(xy 155.575 110.49) (xy 163.195 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c98a59-f6a3-4679-8170-d12d7ec8cfc3")
 	)
 	(wire
 		(pts
@@ -937,16 +947,27 @@
 		)
 		(uuid "bb4ab0ff-832e-48d4-953a-21c08dbb6428")
 	)
-	(label "RST"
-		(at 163.195 110.49 180)
+	(global_label "RST"
+		(shape input)
+		(at 163.195 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "e2593e1a-56e5-43fe-bdcc-49c7cbf0df5d")
+		(uuid "39be3238-1afa-4f85-9a46-ff783a436974")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.6273 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "SW{SWDIO SWCLK}"
 		(shape input)
@@ -1039,7 +1060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 125.095 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1047,7 +1068,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "16b8603c-3b86-4b0b-9855-668a1c97931f")
+		(uuid "68dbbdce-5dd4-448f-ac4e-7a9faceb398a")
 		(property "Reference" "#PWR09"
 			(at 125.095 102.87 0)
 			(effects
@@ -1057,7 +1078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 125.095 93.98 0)
 			(effects
 				(font
@@ -1083,7 +1104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 125.095 99.06 0)
 			(effects
 				(font
@@ -1093,7 +1114,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e01a2e9-f3f7-484c-9af2-34d45fefa335")
+			(uuid "722b66ec-7b1b-43e0-a440-8ad41c5881cf")
 		)
 		(instances
 			(project "drs"

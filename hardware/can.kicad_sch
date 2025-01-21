@@ -1653,6 +1653,17 @@
 		)
 		(uuid "6a809b02-9101-49df-b524-7bce706d404a")
 	)
+	(label "JP1_to_R6"
+		(at 175.26 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "67837e32-0db3-4784-bb83-dd13f3f4806f")
+	)
 	(hierarchical_label "CAN_L"
 		(shape bidirectional)
 		(at 130.81 116.205 0)

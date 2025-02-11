@@ -14,67 +14,47 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 133.35 67.31) (xy 133.35 104.775)
+			(xy 130.81 68.58) (xy 157.48 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "102f4f84-5aba-440f-b669-9b2af4c7843e")
+		(uuid "0cba571d-09c2-4232-b193-82fc6a4df2c5")
 	)
 	(bus
 		(pts
-			(xy 107.95 29.21) (xy 107.95 57.785)
+			(xy 130.81 73.66) (xy 157.48 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b3f1319-5beb-45f5-92ed-68e00b49fd7a")
+		(uuid "146f951d-5daf-490c-8992-31d81e1fee4a")
 	)
 	(bus
 		(pts
-			(xy 170.18 142.875) (xy 128.905 142.875)
+			(xy 130.81 76.2) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b761d0f-2f2b-4a03-8e50-1ea615910166")
+		(uuid "20165f38-ce61-4180-b992-fb3c30574c99")
 	)
 	(bus
 		(pts
-			(xy 128.905 73.66) (xy 128.905 142.875)
+			(xy 130.81 85.09) (xy 133.35 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e9f03df-4a82-47ec-89c8-950b6b6a8980")
-	)
-	(bus
-		(pts
-			(xy 170.18 33.02) (xy 111.76 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d32305-6c5b-4f19-831d-cd9b5117a9a8")
-	)
-	(bus
-		(pts
-			(xy 104.775 64.135) (xy 136.525 64.135)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66f4dfd6-f6d7-4d9d-b903-ea2035a44f1a")
+		(uuid "63ef91a8-946c-499b-8ce3-f75182f261e2")
 	)
 	(wire
 		(pts
-			(xy 207.01 158.115) (xy 203.2 158.115)
+			(xy 194.31 114.935) (xy 190.5 114.935)
 		)
 		(stroke
 			(width 0)
@@ -82,19 +62,9 @@
 		)
 		(uuid "6b8ac147-75f6-433b-b59c-643fd20f715c")
 	)
-	(bus
-		(pts
-			(xy 139.7 67.31) (xy 170.18 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85508e0c-f72a-40d7-b728-6b2ff44e4f1a")
-	)
 	(wire
 		(pts
-			(xy 207.01 155.575) (xy 203.2 155.575)
+			(xy 194.31 112.395) (xy 190.5 112.395)
 		)
 		(stroke
 			(width 0)
@@ -104,113 +74,43 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 104.775) (xy 170.18 104.775)
+			(xy 133.35 99.06) (xy 157.48 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99faa874-1874-4a11-8c46-98c30f3f26e5")
+		(uuid "a901f555-e743-4825-a725-3ce73c819d91")
 	)
 	(bus
 		(pts
-			(xy 107.95 29.21) (xy 170.18 29.21)
+			(xy 130.81 71.12) (xy 157.48 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f372e50-13f7-4ca2-9ffd-150c485fa036")
+		(uuid "d13b4a07-fcbd-496f-91ad-7b597ad9e483")
 	)
 	(bus
 		(pts
-			(xy 104.775 57.785) (xy 107.95 57.785)
+			(xy 130.81 78.74) (xy 157.48 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0cc361e-3ad1-4bae-9fc8-c465a0581dca")
+		(uuid "e09023b5-1d7b-4367-9258-2c666fd4bb0f")
 	)
 	(bus
 		(pts
-			(xy 104.775 67.31) (xy 133.35 67.31)
+			(xy 133.35 85.09) (xy 133.35 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0e6a6eb-dd49-4c1f-8901-dba887744fb4")
-	)
-	(bus
-		(pts
-			(xy 104.775 70.485) (xy 111.76 70.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a51e0fd7-b011-45a3-8830-b9f3e6345f9d")
-	)
-	(bus
-		(pts
-			(xy 104.775 60.96) (xy 139.7 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c977a466-a600-4b1c-9e3c-f724af5985fd")
-	)
-	(bus
-		(pts
-			(xy 104.775 73.66) (xy 128.905 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd1d0f78-76fd-4285-acad-7e851e988ff8")
-	)
-	(bus
-		(pts
-			(xy 136.525 71.12) (xy 170.18 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd5293ff-3097-4c35-a53b-d08aa205edb8")
-	)
-	(bus
-		(pts
-			(xy 111.76 33.02) (xy 111.76 70.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd62cfcf-3951-4703-a31b-7c849836e9fd")
-	)
-	(bus
-		(pts
-			(xy 139.7 60.96) (xy 139.7 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7da7a86-64c1-41ae-9442-5a5b13e87132")
-	)
-	(bus
-		(pts
-			(xy 136.525 64.135) (xy 136.525 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0b20579-18df-4703-8b7d-b9311ad1f81c")
+		(uuid "fdb16200-e3cd-482a-b954-a83b7f8b86e9")
 	)
 	(text "DRS"
 		(exclude_from_sim no)
@@ -226,7 +126,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 207.01 155.575 0)
+		(at 194.31 112.395 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -236,7 +136,7 @@
 		)
 		(uuid "d58ae6d9-6aaa-4b89-9a3a-3e580cddbc64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9824 155.575 0)
+			(at 203.2824 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -248,7 +148,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 207.01 158.115 0)
+		(at 194.31 114.935 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -258,7 +158,7 @@
 		)
 		(uuid "e8dc2146-92fb-49d6-9bdf-0c9eefc89246")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.68 158.115 0)
+			(at 202.98 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +169,7 @@
 		)
 	)
 	(sheet
-		(at 71.755 114.3)
+		(at 97.79 105.41)
 		(size 33.02 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -281,7 +181,7 @@
 		)
 		(uuid "29f85ecd-7b45-4817-8022-029f79a199a0")
 		(property "Sheetname" "Power"
-			(at 71.755 113.5884 0)
+			(at 97.79 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -290,7 +190,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 71.755 136.4746 0)
+			(at 97.79 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,55 +207,7 @@
 		)
 	)
 	(sheet
-		(at 170.18 101.6)
-		(size 33.02 21.59)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3a1e5db0-a8f7-4640-9a23-210849d3f52f")
-		(property "Sheetname" "USB"
-			(at 170.18 100.8884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb.kicad_sch"
-			(at 170.18 123.7746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "USB{D- D+}" input
-			(at 170.18 104.775 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5651813b-3ac8-48e7-aaf0-a587d20d9f85")
-		)
-		(instances
-			(project "drs"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 71.755 55.245)
+		(at 97.79 66.04)
 		(size 33.02 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -367,7 +219,7 @@
 		)
 		(uuid "5a98a3dd-0349-471b-8829-e40d62018b04")
 		(property "Sheetname" "Control"
-			(at 71.755 54.5334 0)
+			(at 97.79 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,7 +228,7 @@
 			)
 		)
 		(property "Sheetfile" "control.kicad_sch"
-			(at 71.755 77.4196 0)
+			(at 97.79 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,65 +236,65 @@
 				(justify left top)
 			)
 		)
-		(pin "SW{SWDIO SWCLK}" input
-			(at 104.775 57.785 0)
+		(pin "{USART1}" input
+			(at 130.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "56384ef2-bd95-4cfc-b1bd-ef070fe4e097")
+			(uuid "ebec9214-1302-486e-9ce3-60e1eb2ff11d")
 		)
-		(pin "PWM{1 2}" output
-			(at 104.775 60.96 0)
+		(pin "{CAN}" bidirectional
+			(at 130.81 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "06a76d11-9800-4ba6-bd9d-f9f55d5ace82")
+			(uuid "c67d35ab-98dd-4f30-9299-5e8794e9f320")
 		)
-		(pin "SPI2{SCK MISO MOSI}" output
-			(at 104.775 64.135 0)
+		(pin "{SPI}" input
+			(at 130.81 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "39dbcc7f-eaa0-4619-8d42-9b484d70f9fc")
+			(uuid "ec50c503-4947-49ab-9c03-1b5e2b2ae523")
 		)
-		(pin "USB{D- D+}" input
-			(at 104.775 67.31 0)
+		(pin "{PWM}" input
+			(at 130.81 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9d2e819a-a830-4ff7-a621-8f6f94f63f74")
+			(uuid "05a02395-fa9c-4788-8962-6b4e9086cedf")
 		)
-		(pin "USART1{TX RX}" bidirectional
-			(at 104.775 70.485 0)
+		(pin "{SW}" input
+			(at 130.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "803a83ca-2331-406d-a461-9a69f19285b5")
+			(uuid "11bccb25-c933-4acd-ad32-e1db90d0109b")
 		)
-		(pin "CAN{RXD TXD}" bidirectional
-			(at 104.775 73.66 0)
+		(pin "{USB}" input
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9b3978ca-efd0-4b9b-8e8c-0513300c648d")
+			(uuid "76947502-33bf-4e6c-b19d-66b4733fb10b")
 		)
 		(instances
 			(project "drs"
@@ -453,7 +305,7 @@
 		)
 	)
 	(sheet
-		(at 170.18 139.7)
+		(at 157.48 96.52)
 		(size 33.02 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -465,7 +317,7 @@
 		)
 		(uuid "b1fd2a01-bf35-4031-ba71-28db4e5321a0")
 		(property "Sheetname" "CAN"
-			(at 170.18 138.9884 0)
+			(at 157.48 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,7 +326,7 @@
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 170.18 161.8746 0)
+			(at 157.48 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -483,7 +335,7 @@
 			)
 		)
 		(pin "CAN_H" bidirectional
-			(at 203.2 155.575 0)
+			(at 190.5 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,7 +345,7 @@
 			(uuid "b27567d2-26fd-4f82-8749-be709511fefd")
 		)
 		(pin "CAN_L" bidirectional
-			(at 203.2 158.115 0)
+			(at 190.5 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -502,15 +354,15 @@
 			)
 			(uuid "39316a95-b65f-452a-94f9-e642fd5d309a")
 		)
-		(pin "CAN{RXD TXD}" bidirectional
-			(at 170.18 142.875 180)
+		(pin "{CAN}" bidirectional
+			(at 157.48 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "54fa4cb3-4179-4722-9522-716bece16f26")
+			(uuid "f6c0ade7-c1b8-458b-8466-80f8cd1ec8bd")
 		)
 		(instances
 			(project "drs"
@@ -521,7 +373,7 @@
 		)
 	)
 	(sheet
-		(at 170.18 62.865)
+		(at 157.48 66.04)
 		(size 33.02 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -533,7 +385,7 @@
 		)
 		(uuid "f3e8ebf7-786b-493f-9dff-a3955a7183ae")
 		(property "Sheetname" "Connectors"
-			(at 170.18 62.1534 0)
+			(at 157.48 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,7 +394,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 170.18 85.0396 0)
+			(at 157.48 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,88 +402,60 @@
 				(justify left top)
 			)
 		)
-		(pin "PWM{1 2}" input
-			(at 170.18 67.31 180)
+		(pin "{USB}" input
+			(at 157.48 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a68c83a6-f69c-4a5a-be60-cb3b09dc7715")
+			(uuid "c9153e3c-1284-4fe1-aa84-7c895d6a1615")
 		)
-		(pin "SPI2" input
-			(at 170.18 71.12 180)
+		(pin "{SPI}" input
+			(at 157.48 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "02d8eaff-bf78-45e5-9bf0-12c975faf3e3")
+			(uuid "5cdf2956-fa0f-451e-89da-539f344cadc5")
+		)
+		(pin "{PWM}" input
+			(at 157.48 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1cdc3259-0e13-48b4-9390-774b70191efd")
+		)
+		(pin "{USART1}" input
+			(at 157.48 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "53577bad-c100-4dc7-9dc2-0aedc6f4a476")
+		)
+		(pin "{SW}" input
+			(at 157.48 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33224839-75ad-4605-be17-d756a9c59327")
 		)
 		(instances
 			(project "drs"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 170.18 26.035)
-		(size 33.02 21.59)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f5f27b65-1a7f-4fa5-9c06-7994f634c152")
-		(property "Sheetname" "Programator"
-			(at 170.18 25.3234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "programator.kicad_sch"
-			(at 170.18 48.2096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SW{SWDIO SWCLK}" input
-			(at 170.18 29.21 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "92006535-0b0c-4304-861d-78cf654657c2")
-		)
-		(pin "USART1{TX RX}" bidirectional
-			(at 170.18 33.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a50b8881-8fe9-4bcb-ba67-11dd0e9fc768")
-		)
-		(instances
-			(project "drs"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(page "7")
 				)
 			)
 		)

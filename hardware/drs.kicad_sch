@@ -14,7 +14,7 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 130.81 68.58) (xy 157.48 68.58)
+			(xy 99.06 67.31) (xy 203.2 67.31)
 		)
 		(stroke
 			(width 0)
@@ -24,27 +24,7 @@
 	)
 	(bus
 		(pts
-			(xy 130.81 73.66) (xy 157.48 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146f951d-5daf-490c-8992-31d81e1fee4a")
-	)
-	(bus
-		(pts
-			(xy 130.81 76.2) (xy 157.48 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20165f38-ce61-4180-b992-fb3c30574c99")
-	)
-	(bus
-		(pts
-			(xy 130.81 85.09) (xy 133.35 85.09)
+			(xy 99.06 83.82) (xy 130.81 83.82)
 		)
 		(stroke
 			(width 0)
@@ -52,29 +32,19 @@
 		)
 		(uuid "63ef91a8-946c-499b-8ce3-f75182f261e2")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 194.31 114.935) (xy 190.5 114.935)
+			(xy 99.06 74.93) (xy 203.2 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b8ac147-75f6-433b-b59c-643fd20f715c")
-	)
-	(wire
-		(pts
-			(xy 194.31 112.395) (xy 190.5 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9800e8b6-be13-4c98-9dbd-19821c636840")
+		(uuid "810d915f-68cb-46c9-82b6-6080638e9c6b")
 	)
 	(bus
 		(pts
-			(xy 133.35 99.06) (xy 157.48 99.06)
+			(xy 130.81 106.68) (xy 203.2 106.68)
 		)
 		(stroke
 			(width 0)
@@ -84,7 +54,17 @@
 	)
 	(bus
 		(pts
-			(xy 130.81 71.12) (xy 157.48 71.12)
+			(xy 99.06 72.39) (xy 203.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a975fc0c-d0c8-4d01-8e53-5705e5b1aeb8")
+	)
+	(bus
+		(pts
+			(xy 99.06 69.85) (xy 203.2 69.85)
 		)
 		(stroke
 			(width 0)
@@ -94,7 +74,7 @@
 	)
 	(bus
 		(pts
-			(xy 130.81 78.74) (xy 157.48 78.74)
+			(xy 99.06 77.47) (xy 203.2 77.47)
 		)
 		(stroke
 			(width 0)
@@ -104,7 +84,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 85.09) (xy 133.35 99.06)
+			(xy 130.81 83.82) (xy 130.81 106.68)
 		)
 		(stroke
 			(width 0)
@@ -126,7 +106,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 194.31 112.395 0)
+		(at 236.22 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -134,9 +114,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d58ae6d9-6aaa-4b89-9a3a-3e580cddbc64")
+		(uuid "37a23eb0-efaf-4164-a23e-94fc8fa84602")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2824 112.395 0)
+			(at 245.1924 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,7 +128,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 194.31 114.935 0)
+		(at 236.22 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -156,9 +136,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e8dc2146-92fb-49d6-9bdf-0c9eefc89246")
+		(uuid "d2bf2bec-314e-4bfc-a2f2-658af3db8930")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.98 114.935 0)
+			(at 244.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,7 +149,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 105.41)
+		(at 66.04 104.14)
 		(size 33.02 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -181,7 +161,7 @@
 		)
 		(uuid "29f85ecd-7b45-4817-8022-029f79a199a0")
 		(property "Sheetname" "Power"
-			(at 97.79 104.6984 0)
+			(at 66.04 103.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -190,7 +170,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 97.79 127.5846 0)
+			(at 66.04 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,7 +187,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 66.04)
+		(at 66.04 64.77)
 		(size 33.02 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -219,7 +199,7 @@
 		)
 		(uuid "5a98a3dd-0349-471b-8829-e40d62018b04")
 		(property "Sheetname" "Control"
-			(at 97.79 65.3284 0)
+			(at 66.04 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,7 +208,7 @@
 			)
 		)
 		(property "Sheetfile" "control.kicad_sch"
-			(at 97.79 88.2146 0)
+			(at 66.04 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -236,8 +216,8 @@
 				(justify left top)
 			)
 		)
-		(pin "{USART1}" input
-			(at 130.81 68.58 0)
+		(pin "{USART1}" bidirectional
+			(at 99.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -247,7 +227,7 @@
 			(uuid "ebec9214-1302-486e-9ce3-60e1eb2ff11d")
 		)
 		(pin "{CAN}" bidirectional
-			(at 130.81 85.09 0)
+			(at 99.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,8 +236,8 @@
 			)
 			(uuid "c67d35ab-98dd-4f30-9299-5e8794e9f320")
 		)
-		(pin "{SPI}" input
-			(at 130.81 71.12 0)
+		(pin "{SPI}" bidirectional
+			(at 99.06 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -266,8 +246,8 @@
 			)
 			(uuid "ec50c503-4947-49ab-9c03-1b5e2b2ae523")
 		)
-		(pin "{PWM}" input
-			(at 130.81 73.66 0)
+		(pin "{PWM}" output
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,8 +256,8 @@
 			)
 			(uuid "05a02395-fa9c-4788-8962-6b4e9086cedf")
 		)
-		(pin "{SW}" input
-			(at 130.81 76.2 0)
+		(pin "{SW}" bidirectional
+			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -286,8 +266,8 @@
 			)
 			(uuid "11bccb25-c933-4acd-ad32-e1db90d0109b")
 		)
-		(pin "{USB}" input
-			(at 130.81 78.74 0)
+		(pin "{USB}" output
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,7 +285,7 @@
 		)
 	)
 	(sheet
-		(at 157.48 96.52)
+		(at 203.2 104.14)
 		(size 33.02 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -317,7 +297,7 @@
 		)
 		(uuid "b1fd2a01-bf35-4031-ba71-28db4e5321a0")
 		(property "Sheetname" "CAN"
-			(at 157.48 95.8084 0)
+			(at 203.2 103.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,7 +306,7 @@
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 157.48 118.6946 0)
+			(at 203.2 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -335,7 +315,7 @@
 			)
 		)
 		(pin "CAN_H" bidirectional
-			(at 190.5 112.395 0)
+			(at 236.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,7 +325,7 @@
 			(uuid "b27567d2-26fd-4f82-8749-be709511fefd")
 		)
 		(pin "CAN_L" bidirectional
-			(at 190.5 114.935 0)
+			(at 236.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,7 +335,7 @@
 			(uuid "39316a95-b65f-452a-94f9-e642fd5d309a")
 		)
 		(pin "{CAN}" bidirectional
-			(at 157.48 99.06 180)
+			(at 203.2 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -373,7 +353,7 @@
 		)
 	)
 	(sheet
-		(at 157.48 66.04)
+		(at 203.2 64.77)
 		(size 33.02 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -385,7 +365,7 @@
 		)
 		(uuid "f3e8ebf7-786b-493f-9dff-a3955a7183ae")
 		(property "Sheetname" "Connectors"
-			(at 157.48 65.3284 0)
+			(at 203.2 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,7 +374,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 157.48 88.2146 0)
+			(at 203.2 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -403,7 +383,7 @@
 			)
 		)
 		(pin "{USB}" input
-			(at 157.48 78.74 180)
+			(at 203.2 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -412,8 +392,8 @@
 			)
 			(uuid "c9153e3c-1284-4fe1-aa84-7c895d6a1615")
 		)
-		(pin "{SPI}" input
-			(at 157.48 71.12 180)
+		(pin "{SPI}" bidirectional
+			(at 203.2 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -423,7 +403,7 @@
 			(uuid "5cdf2956-fa0f-451e-89da-539f344cadc5")
 		)
 		(pin "{PWM}" input
-			(at 157.48 73.66 180)
+			(at 203.2 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -432,8 +412,8 @@
 			)
 			(uuid "1cdc3259-0e13-48b4-9390-774b70191efd")
 		)
-		(pin "{USART1}" input
-			(at 157.48 68.58 180)
+		(pin "{USART1}" bidirectional
+			(at 203.2 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,8 +422,8 @@
 			)
 			(uuid "53577bad-c100-4dc7-9dc2-0aedc6f4a476")
 		)
-		(pin "{SW}" input
-			(at 157.48 76.2 180)
+		(pin "{SW}" bidirectional
+			(at 203.2 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)

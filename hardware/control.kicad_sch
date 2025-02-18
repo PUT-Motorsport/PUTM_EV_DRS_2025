@@ -266,8 +266,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -15.24 26.67 0)
+			(property "Reference" "U1"
+				(at 4.7341 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -276,7 +276,7 @@
 				)
 			)
 			(property "Value" "STM32G0C1KCTxN"
-				(at 5.08 26.67 0)
+				(at 4.7341 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -303,7 +303,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 256KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 29 GPIO, LQFP32"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1078,7 +1078,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 2.54 -25.4 90)
 					(length 2.54)
 					(name "VSS"
@@ -1530,7 +1530,7 @@
 		(members "RXD" "TXD")
 	)
 	(bus_alias "PWM"
-		(members "1" "2")
+		(members "PWM1" "PWM2")
 	)
 	(bus_alias "SPI"
 		(members "SCK" "MISO" "MOSI")
@@ -2543,6 +2543,7 @@
 	)
 	(label "CLK"
 		(at 173.99 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2573,7 +2574,7 @@
 		)
 		(uuid "175adff7-38ba-4273-ac2a-bf8197a91152")
 	)
-	(label "1"
+	(label "PWM1"
 		(at 185.42 86.36 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2586,6 +2587,7 @@
 	)
 	(label "D-"
 		(at 173.99 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2605,7 +2607,7 @@
 		)
 		(uuid "4566da05-5343-4dbd-95ba-ed284df7ad95")
 	)
-	(label "2"
+	(label "PWM2"
 		(at 185.42 88.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2651,6 +2653,7 @@
 	)
 	(label "D+"
 		(at 173.99 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2727,6 +2730,7 @@
 	)
 	(label "DIO"
 		(at 173.99 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2780,7 +2784,7 @@
 		)
 	)
 	(hierarchical_label "{SPI}"
-		(shape input)
+		(shape bidirectional)
 		(at 198.12 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2792,7 +2796,7 @@
 		(uuid "105e3522-a10e-44da-a008-2a3f6b0fa9a6")
 	)
 	(hierarchical_label "{PWM}"
-		(shape input)
+		(shape output)
 		(at 204.47 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2804,7 +2808,7 @@
 		(uuid "2cc2e924-5f48-4a61-ae8b-00506a1e8b84")
 	)
 	(hierarchical_label "{SW}"
-		(shape input)
+		(shape bidirectional)
 		(at 198.12 116.84 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2828,7 +2832,7 @@
 		(uuid "9d881667-f8ec-4335-acf6-8dcdd00338cf")
 	)
 	(hierarchical_label "{USB}"
-		(shape input)
+		(shape output)
 		(at 198.12 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2840,7 +2844,7 @@
 		(uuid "dac29ef5-61f8-4810-af74-721f25092b13")
 	)
 	(hierarchical_label "{USART1}"
-		(shape input)
+		(shape bidirectional)
 		(at 113.03 109.22 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2944,7 +2948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -3249,7 +3253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 104.14 62.23 0)
 			(effects
 				(font
@@ -3396,7 +3400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
+		(property "Value" "3V3_FLAG"
 			(at 87.63 50.8 0)
 			(effects
 				(font
@@ -3471,7 +3475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.84 62.23 0)
 			(effects
 				(font
@@ -3550,7 +3554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 129.54 62.23 0)
 			(effects
 				(font
@@ -3628,7 +3632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 142.24 62.23 0)
 			(effects
 				(font

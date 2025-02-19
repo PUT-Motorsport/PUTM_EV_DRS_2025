@@ -4096,7 +4096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "SamacSys_Parts:HDRV3W64P0X254_1X3_762X254X864P"
 			(at 223.52 80.01 0)
 			(effects
 				(font
@@ -4105,7 +4105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/52c5536d604d4472a828deca8b13b729/M20-9990346.pdf"
 			(at 223.52 80.01 0)
 			(effects
 				(font
@@ -4115,6 +4115,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.tme.eu/pl/details/m20-9990346/zlacza-sygnalowe-raster-2-54mm/harwin/"
 			(at 223.52 80.01 0)
 			(effects
 				(font
@@ -4235,7 +4244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "SamacSys_Parts:HDRV3W64P0X254_1X3_762X254X864P"
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -4244,7 +4253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/52c5536d604d4472a828deca8b13b729/M20-9990346.pdf"
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -4254,6 +4263,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.tme.eu/pl/details/m20-9990346/zlacza-sygnalowe-raster-2-54mm/harwin/"
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -4853,7 +4871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical_SMD"
+		(property "Footprint" "SamacSys_Parts:SHDR12W64P254X254_2X6_2286X895X915P"
 			(at 158.75 69.85 0)
 			(effects
 				(font
@@ -4862,7 +4880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/7d9961e5e60ab95d248a27b27276cc23/t821.pdf"
 			(at 158.75 69.85 0)
 			(effects
 				(font
@@ -4872,6 +4890,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.tme.eu/pl/details/t821-1-12-s1/zlacza-idc/amphenol-communications-solutions/t821112a1s100ceu/"
 			(at 158.75 69.85 0)
 			(effects
 				(font

@@ -5355,7 +5355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM32EC81A476KE19_01A-1988153.pdf"
 			(at 134.62 124.46 0)
 			(effects
 				(font
@@ -5365,6 +5365,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM32EC81A476KE19L?qs=MY6wChARw2yvJSSmMP%2Fwxg%3D%3D"
 			(at 134.62 124.46 0)
 			(effects
 				(font
@@ -5824,7 +5833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/54/SRR1206-1391277.pdf"
 			(at 107.95 167.64 0)
 			(effects
 				(font
@@ -5834,6 +5843,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 107.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Bourns/SRR1206-120ML?qs=l%252BervZ6IL6PfHgkxJQdXVw%3D%3D"
 			(at 107.95 167.64 0)
 			(effects
 				(font
@@ -6198,7 +6216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Texas-Instruments/LMR51635XDDCR?qs=sGAEpiMZZMt1hubY80%2Fs8HD5vy81pbGNDwVUW%252BJXSqE9IWMzBHKeQw%3D%3D"
 			(at 88.9 760.02 0)
 			(effects
 				(font
@@ -6293,7 +6311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM32EC81A476KE19_01A-1988153.pdf"
 			(at 257.81 60.96 0)
 			(effects
 				(font
@@ -6303,6 +6321,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM32EC81A476KE19L?qs=MY6wChARw2yvJSSmMP%2Fwxg%3D%3D"
 			(at 257.81 60.96 0)
 			(effects
 				(font
@@ -6430,7 +6457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
 			(at 49.53 176.53 0)
 			(effects
 				(font
@@ -6440,6 +6467,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TAIYO-YUDEN/MMJCG168CB7105KRPA18?qs=tlsG%2FOw5FFitCzv9vt4%2F3A%3D%3D"
 			(at 49.53 176.53 0)
 			(effects
 				(font
@@ -6498,7 +6534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 96.52 100.33 0)
 			(effects
 				(font
@@ -6508,6 +6544,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 96.52 100.33 0)
 			(effects
 				(font
@@ -6568,7 +6613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 134.62 64.77 0)
 			(effects
 				(font
@@ -6578,6 +6623,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 134.62 64.77 0)
 			(effects
 				(font
@@ -6638,7 +6692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
 			(at 114.3 172.72 0)
 			(effects
 				(font
@@ -6648,6 +6702,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 114.3 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KOA-Speer/RK73B1JTTD104J?qs=sGAEpiMZZMvdGkrng054t2HaaJFon%252B0pQ1vDU7rpyKc%3D"
 			(at 114.3 172.72 0)
 			(effects
 				(font
@@ -6708,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
 			(at 31.75 176.53 0)
 			(effects
 				(font
@@ -6718,6 +6781,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 31.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TAIYO-YUDEN/MMJCG168CB7105KRPA18?qs=tlsG%2FOw5FFitCzv9vt4%2F3A%3D%3D"
 			(at 31.75 176.53 0)
 			(effects
 				(font
@@ -6986,7 +7058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 204.47 133.35 0)
 			(effects
 				(font
@@ -6996,6 +7068,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 204.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 204.47 133.35 0)
 			(effects
 				(font
@@ -7055,7 +7136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM32EC81A476KE19_01A-1988153.pdf"
 			(at 134.62 177.8 0)
 			(effects
 				(font
@@ -7065,6 +7146,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM32EC81A476KE19L?qs=MY6wChARw2yvJSSmMP%2Fwxg%3D%3D"
 			(at 134.62 177.8 0)
 			(effects
 				(font
@@ -7125,7 +7215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 114.3 182.88 0)
 			(effects
 				(font
@@ -7135,6 +7225,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 114.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603DRE0713K7L?qs=sGAEpiMZZMtlubZbdhIBIMHZ5gvv1VGtfSHmx2YCPyY%3D"
 			(at 114.3 182.88 0)
 			(effects
 				(font
@@ -7186,7 +7285,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+		(property "Footprint" "SamacSys_Parts:CAPPM7343X310N"
 			(at 30.48 55.88 0)
 			(effects
 				(font
@@ -7195,7 +7294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 30.48 55.88 0)
 			(effects
 				(font
@@ -7213,7 +7312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Samsung-Electro-Mechanics/CL21A107MQYNNWE?qs=81r%252BiQLm7BSNi6fWCnDBNQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TDK/C2012X5R1V226M125AC?qs=6JAMGB%252BEdkyUk0d2Mu2IrQ%3D%3D"
 			(at 30.48 55.88 0)
 			(effects
 				(font
@@ -7348,7 +7447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 229.87 133.35 0)
 			(effects
 				(font
@@ -7358,6 +7457,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 229.87 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 229.87 133.35 0)
 			(effects
 				(font
@@ -7417,7 +7525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM32EC81A476KE19_01A-1988153.pdf"
 			(at 125.73 177.8 0)
 			(effects
 				(font
@@ -7427,6 +7535,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM32EC81A476KE19L?qs=MY6wChARw2yvJSSmMP%2Fwxg%3D%3D"
 			(at 125.73 177.8 0)
 			(effects
 				(font
@@ -7550,7 +7667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Wurth-Elektronik/150060SS75000?qs=LlUlMxKIyB0oQaxwspeTEA%3D%3D"
 			(at 210.82 62.23 90)
 			(effects
 				(font
@@ -7560,6 +7677,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 210.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.we-online.com/components/products/datasheet/150060SS75000.pdf"
 			(at 210.82 62.23 0)
 			(effects
 				(font
@@ -7686,7 +7812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 233.68 71.12 0)
 			(effects
 				(font
@@ -7696,6 +7822,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 233.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=sGAEpiMZZMtlubZbdhIBIHFHA%252BLjIXrexE6X%2Fz%252Bm29E%3D"
 			(at 233.68 71.12 0)
 			(effects
 				(font
@@ -7952,7 +8087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM32EC81A476KE19_01A-1988153.pdf"
 			(at 125.73 124.46 0)
 			(effects
 				(font
@@ -7962,6 +8097,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM32EC81A476KE19L?qs=MY6wChARw2yvJSSmMP%2Fwxg%3D%3D"
 			(at 125.73 124.46 0)
 			(effects
 				(font
@@ -8237,6 +8381,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Texas-Instruments/LM1117MPX-3.3-NOPB?qs=X1J7HmVL2ZHRbBIxXi4utg%3D%3D"
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a80cb3cf-e437-4856-8e36-905896e8edfd")
 		)
@@ -8292,7 +8445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://diotec.com/request/datasheet/skl32.pdf"
 			(at 196.85 120.65 90)
 			(effects
 				(font
@@ -8302,6 +8455,15 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
+			(at 196.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Diotec-Semiconductor/SKL34?qs=OlC7AqGiEDlypja3QtYFUQ%3D%3D"
 			(at 196.85 120.65 0)
 			(effects
 				(font
@@ -8564,7 +8726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Wurth-Elektronik/150060SS75000?qs=LlUlMxKIyB0oQaxwspeTEA%3D%3D"
 			(at 250.19 143.51 90)
 			(effects
 				(font
@@ -8574,6 +8736,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 250.19 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.we-online.com/components/products/datasheet/150060SS75000.pdf"
 			(at 250.19 143.51 0)
 			(effects
 				(font
@@ -8632,7 +8803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 219.71 62.23 0)
 			(effects
 				(font
@@ -8642,6 +8813,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Dale/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
 			(at 219.71 62.23 0)
 			(effects
 				(font
@@ -8702,7 +8882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
 			(at 49.53 123.19 0)
 			(effects
 				(font
@@ -8712,6 +8892,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TAIYO-YUDEN/MMJCG168CB7105KRPA18?qs=tlsG%2FOw5FFitCzv9vt4%2F3A%3D%3D"
 			(at 49.53 123.19 0)
 			(effects
 				(font
@@ -8772,7 +8961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 250.19 135.89 0)
 			(effects
 				(font
@@ -8782,6 +8971,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 250.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Dale/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
 			(at 250.19 135.89 0)
 			(effects
 				(font
@@ -8979,7 +9177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -8989,6 +9187,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KOA-Speer/RK73B1JTTD104J?qs=sGAEpiMZZMvdGkrng054t2HaaJFon%252B0pQ1vDU7rpyKc%3D"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -9087,7 +9294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Texas-Instruments/LMR51635XDDCR?qs=sGAEpiMZZMt1hubY80%2Fs8HD5vy81pbGNDwVUW%252BJXSqE9IWMzBHKeQw%3D%3D"
 			(at 88.9 706.68 0)
 			(effects
 				(font
@@ -9252,7 +9459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 59.69 123.19 0)
 			(effects
 				(font
@@ -9262,6 +9469,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 59.69 123.19 0)
 			(effects
 				(font
@@ -9320,7 +9536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 96.52 153.67 0)
 			(effects
 				(font
@@ -9330,6 +9546,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 96.52 153.67 0)
 			(effects
 				(font
@@ -9390,7 +9615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
 			(at 40.64 123.19 0)
 			(effects
 				(font
@@ -9400,6 +9625,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 40.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TAIYO-YUDEN/MMJCG168CB7105KRPA18?qs=tlsG%2FOw5FFitCzv9vt4%2F3A%3D%3D"
 			(at 40.64 123.19 0)
 			(effects
 				(font
@@ -9460,7 +9694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 59.69 176.53 0)
 			(effects
 				(font
@@ -9470,6 +9704,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 59.69 176.53 0)
 			(effects
 				(font
@@ -9531,7 +9774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM32EC81A476KE19_01A-1988153.pdf"
 			(at 246.38 60.96 0)
 			(effects
 				(font
@@ -9541,6 +9784,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM32EC81A476KE19L?qs=MY6wChARw2yvJSSmMP%2Fwxg%3D%3D"
 			(at 246.38 60.96 0)
 			(effects
 				(font
@@ -9599,7 +9851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/54/SRR1206-1391277.pdf"
 			(at 107.95 114.3 0)
 			(effects
 				(font
@@ -9609,6 +9861,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Bourns/SRR1206-120ML?qs=l%252BervZ6IL6PfHgkxJQdXVw%3D%3D"
 			(at 107.95 114.3 0)
 			(effects
 				(font
@@ -9740,7 +10001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -9750,6 +10011,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Panasonic/ERJ-S03F4022V?qs=sGAEpiMZZMtlubZbdhIBINuoixIUl6fxb0K7mKcBrYw%3D"
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -9810,7 +10080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM188R6YA106MA73_01A-1985794.pdf"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -9820,6 +10090,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R6YA106MA73J?qs=5aG0NVq1C4xLSwNPdfnaYg%3D%3D"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -9880,7 +10159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
 			(at 31.75 123.19 0)
 			(effects
 				(font
@@ -9890,6 +10169,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 31.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TAIYO-YUDEN/MMJCG168CB7105KRPA18?qs=tlsG%2FOw5FFitCzv9vt4%2F3A%3D%3D"
 			(at 31.75 123.19 0)
 			(effects
 				(font
@@ -9950,7 +10238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
 			(at 149.86 64.77 0)
 			(effects
 				(font
@@ -9960,6 +10248,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Beyschlag/MCT06030C6492FP500?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPaKfHd3AiCs%252BU%3D"
 			(at 149.86 64.77 0)
 			(effects
 				(font
@@ -10087,7 +10384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM188R6YA106MA73_01A-1985794.pdf"
 			(at 40.64 55.88 0)
 			(effects
 				(font
@@ -10097,6 +10394,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R6YA106MA73J?qs=5aG0NVq1C4xLSwNPdfnaYg%3D%3D"
 			(at 40.64 55.88 0)
 			(effects
 				(font
@@ -10224,7 +10530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 114.3 129.54 0)
 			(effects
 				(font
@@ -10234,6 +10540,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603DRE0713K7L?qs=sGAEpiMZZMtlubZbdhIBIMHZ5gvv1VGtfSHmx2YCPyY%3D"
 			(at 114.3 129.54 0)
 			(effects
 				(font
@@ -10359,7 +10674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM188R6YA106MA73_01A-1985794.pdf"
 			(at 121.92 64.77 0)
 			(effects
 				(font
@@ -10369,6 +10684,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 121.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R6YA106MA73J?qs=5aG0NVq1C4xLSwNPdfnaYg%3D%3D"
 			(at 121.92 64.77 0)
 			(effects
 				(font
@@ -10630,7 +10954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
 			(at 40.64 176.53 0)
 			(effects
 				(font
@@ -10640,6 +10964,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 40.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TAIYO-YUDEN/MMJCG168CB7105KRPA18?qs=tlsG%2FOw5FFitCzv9vt4%2F3A%3D%3D"
 			(at 40.64 176.53 0)
 			(effects
 				(font
@@ -10758,7 +11091,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+		(property "Footprint" "SamacSys_Parts:CAPPM7343X310N"
 			(at 50.8 55.88 0)
 			(effects
 				(font
@@ -10767,7 +11100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 50.8 55.88 0)
 			(effects
 				(font
@@ -10785,7 +11118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Samsung-Electro-Mechanics/CL21A107MQYNNWE?qs=81r%252BiQLm7BSNi6fWCnDBNQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TDK/C2012X5R1V226M125AC?qs=6JAMGB%252BEdkyUk0d2Mu2IrQ%3D%3D"
 			(at 50.8 55.88 0)
 			(effects
 				(font
@@ -10853,7 +11186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 205.74 48.26 0)
 			(effects
 				(font
@@ -10863,6 +11196,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 205.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 205.74 48.26 0)
 			(effects
 				(font
@@ -10921,7 +11263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/54/SRU1028A-1391626.pdf"
 			(at 220.98 45.72 0)
 			(effects
 				(font
@@ -10931,6 +11273,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 220.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Bourns/SRU1028A-150Y?qs=jtImr9hqsuGJK2vtAZUxbQ%3D%3D"
 			(at 220.98 45.72 0)
 			(effects
 				(font

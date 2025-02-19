@@ -4587,7 +4587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 99.06 66.04 0)
 			(effects
 				(font
@@ -4597,6 +4597,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Dale/CRCW06035K10FKEC?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGt7ImYW9MzNM%3D"
 			(at 99.06 66.04 0)
 			(effects
 				(font
@@ -5243,7 +5252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1063_X8R_FT_CAP_SMD-3316286.pdf"
 			(at 54.61 101.6 0)
 			(effects
 				(font
@@ -5253,6 +5262,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 54.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603X103J4HACAUTO?qs=rrS6PyfT74eN%2FOGgR5%2FPZQ%3D%3D"
 			(at 54.61 101.6 0)
 			(effects
 				(font
@@ -5378,7 +5396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 99.06 68.58 0)
 			(effects
 				(font
@@ -5388,6 +5406,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Dale/CRCW06035K10FKEC?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGt7ImYW9MzNM%3D"
 			(at 99.06 68.58 0)
 			(effects
 				(font
@@ -5635,7 +5662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_JAE_DX07S024WJ3R400"
+		(property "Footprint" "SamacSys_Parts:DX07S024WJ3R400"
 			(at 66.04 76.2 0)
 			(effects
 				(font
@@ -5644,7 +5671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/206/JAEI_S_A0002811482_1-2550784.pdf"
 			(at 66.04 76.2 0)
 			(effects
 				(font
@@ -5654,6 +5681,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/JAE-Electronics/DX07S024WJ3R400?qs=Ps1sUSMe7kmTGGC30IqfqQ%3D%3D"
 			(at 62.23 76.2 0)
 			(effects
 				(font

@@ -1861,7 +1861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=SFR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 175.26 110.49 0)
 			(effects
 				(font
@@ -1880,6 +1880,15 @@
 			)
 		)
 		(property "m" "RK73H1JTTD1200F"
+			(at 175.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/ROHM-Semiconductor/SFR03EZPJ121?qs=sGAEpiMZZMtlubZbdhIBIONtIqra%2FA5Y7zXrig9MQT8%3D"
 			(at 175.26 110.49 0)
 			(effects
 				(font
@@ -2344,7 +2353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 104.14 92.71 0)
 			(effects
 				(font
@@ -2354,6 +2363,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 104.14 92.71 0)
 			(effects
 				(font
@@ -2491,6 +2509,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Microchip-Technology/MCP2542FDT-H-MF?qs=qdgZG5p0FZ4SFwsOvrAdQg%3D%3D"
 			(at 118.11 114.3 0)
 			(effects
 				(font
@@ -2638,7 +2665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf"
 			(at 200.66 109.22 0)
 			(effects
 				(font
@@ -2648,6 +2675,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Nexperia/PESD2CAN215?qs=LOCUfHb8d9sqg7TaLUP2JQ%3D%3D"
 			(at 200.66 105.41 0)
 			(effects
 				(font
@@ -2778,7 +2814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -2788,6 +2824,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 129.54 92.71 0)
 			(effects
 				(font

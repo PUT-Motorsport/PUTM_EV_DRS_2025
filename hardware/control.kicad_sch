@@ -2957,7 +2957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM188R6YA106MA73_01A-1985794.pdf"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -2976,6 +2976,15 @@
 			)
 		)
 		(property "m" "C0603C104K5RAC3121"
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R6YA106MA73J?qs=5aG0NVq1C4xLSwNPdfnaYg%3D%3D"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -3113,6 +3122,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/STMicroelectronics/STM32G0C1KCT6N?qs=iLbezkQI%252Bshu4f%252BBp0CpFw%3D%3D"
 			(at 153.67 106.68 0)
 			(effects
 				(font
@@ -3262,7 +3280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 104.14 62.23 0)
 			(effects
 				(font
@@ -3281,6 +3299,15 @@
 			)
 		)
 		(property "m" "C0603C104K5RAC3121"
+			(at 104.14 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 104.14 62.23 0)
 			(effects
 				(font
@@ -3339,7 +3366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
 			(at 114.3 83.82 0)
 			(effects
 				(font
@@ -3359,6 +3386,15 @@
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KOA-Speer/RK73Z1JTTDD?qs=sGAEpiMZZMtlubZbdhIBIOIkEhSyZ1IOpjyUKjVzbOA%3D"
 			(at 114.3 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KOA-Speer/RK73B1JTTD104J?qs=sGAEpiMZZMvdGkrng054t2HaaJFon%252B0pQ1vDU7rpyKc%3D"
+			(at 114.3 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
 			(at 116.84 62.23 0)
 			(effects
 				(font
@@ -3503,6 +3539,15 @@
 			)
 		)
 		(property "m" "CL10A475KQ8NNNL"
+			(at 116.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TAIYO-YUDEN/MLASG168BB5475KTNA01?qs=tlsG%2FOw5FFhCGJXg7RRAyQ%3D%3D"
 			(at 116.84 62.23 0)
 			(effects
 				(font
@@ -3563,7 +3608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 129.54 62.23 0)
 			(effects
 				(font
@@ -3582,6 +3627,15 @@
 			)
 		)
 		(property "m" "C0603C104K5RAC3121"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104J5RACTM?qs=JHaSZE6YWYWxKFeO4jSa6A%3D%3D"
 			(at 129.54 62.23 0)
 			(effects
 				(font
@@ -3641,7 +3695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
 			(at 142.24 62.23 0)
 			(effects
 				(font
@@ -3660,6 +3714,15 @@
 			)
 		)
 		(property "m" "CL10A475KQ8NNNL"
+			(at 142.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TAIYO-YUDEN/MLASG168BB5475KTNA01?qs=tlsG%2FOw5FFhCGJXg7RRAyQ%3D%3D"
 			(at 142.24 62.23 0)
 			(effects
 				(font
@@ -3718,7 +3781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 81.28 55.88 0)
 			(effects
 				(font
@@ -3738,6 +3801,15 @@
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/KOA-Speer/RK73Z1JTTDD?qs=sGAEpiMZZMtlubZbdhIBIOIkEhSyZ1IOpjyUKjVzbOA%3D"
 			(at 81.28 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Dale/CRCW06030000Z0ED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGQpe36dKZ2cw%3D"
+			(at 81.28 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b652b05a-4e3d-4ad1-b032-18886abe7d45")
 	(paper "A4")
 	(title_block
@@ -12,6 +12,18 @@
 		(comment 1 "Reviewer:")
 	)
 	(lib_symbols)
+	(text "DRS"
+		(exclude_from_sim no)
+		(at 37.592 25.654 0)
+		(effects
+			(font
+				(size 12 12)
+				(thickness 4.8)
+				(bold yes)
+			)
+		)
+		(uuid "09e04bed-9fdc-4ac4-bd4f-1aac93964aa6")
+	)
 	(bus
 		(pts
 			(xy 99.06 67.31) (xy 203.2 67.31)
@@ -31,6 +43,16 @@
 			(type default)
 		)
 		(uuid "63ef91a8-946c-499b-8ce3-f75182f261e2")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 203.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af75c49-89b6-460f-8237-2d4d66330248")
 	)
 	(bus
 		(pts
@@ -92,18 +114,6 @@
 		)
 		(uuid "fdb16200-e3cd-482a-b954-a83b7f8b86e9")
 	)
-	(text "DRS"
-		(exclude_from_sim no)
-		(at 37.592 25.654 0)
-		(effects
-			(font
-				(size 12 12)
-				(thickness 4.8)
-				(bold yes)
-			)
-		)
-		(uuid "09e04bed-9fdc-4ac4-bd4f-1aac93964aa6")
-	)
 	(global_label "CAN_H"
 		(shape input)
 		(at 236.22 120.65 0)
@@ -151,6 +161,10 @@
 	(sheet
 		(at 66.04 104.14)
 		(size 33.02 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -189,6 +203,10 @@
 	(sheet
 		(at 66.04 64.77)
 		(size 33.02 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -216,65 +234,75 @@
 				(justify left top)
 			)
 		)
-		(pin "{USART1}" bidirectional
-			(at 99.06 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ebec9214-1302-486e-9ce3-60e1eb2ff11d")
-		)
 		(pin "{CAN}" bidirectional
 			(at 99.06 83.82 0)
+			(uuid "c67d35ab-98dd-4f30-9299-5e8794e9f320")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c67d35ab-98dd-4f30-9299-5e8794e9f320")
 		)
 		(pin "{SPI}" bidirectional
 			(at 99.06 69.85 0)
+			(uuid "ec50c503-4947-49ab-9c03-1b5e2b2ae523")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ec50c503-4947-49ab-9c03-1b5e2b2ae523")
 		)
 		(pin "{PWM}" output
 			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
 			(uuid "05a02395-fa9c-4788-8962-6b4e9086cedf")
-		)
-		(pin "{SW}" bidirectional
-			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "11bccb25-c933-4acd-ad32-e1db90d0109b")
 		)
 		(pin "{USB}" output
 			(at 99.06 77.47 0)
+			(uuid "76947502-33bf-4e6c-b19d-66b4733fb10b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "76947502-33bf-4e6c-b19d-66b4733fb10b")
+		)
+		(pin "{SW}" bidirectional
+			(at 99.06 72.39 0)
+			(uuid "849c6158-a4b1-448f-9e01-b78935640efc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{USART1}" bidirectional
+			(at 99.06 67.31 0)
+			(uuid "c5ed92e7-7ef8-4d3a-b7aa-74e589670928")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RST" input
+			(at 99.06 80.01 0)
+			(uuid "b701bd4a-73c6-492c-b2da-152e68b53782")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
 		(instances
 			(project "drs"
@@ -287,6 +315,10 @@
 	(sheet
 		(at 203.2 104.14)
 		(size 33.02 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -316,33 +348,33 @@
 		)
 		(pin "CAN_H" bidirectional
 			(at 236.22 120.65 0)
+			(uuid "b27567d2-26fd-4f82-8749-be709511fefd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b27567d2-26fd-4f82-8749-be709511fefd")
 		)
 		(pin "CAN_L" bidirectional
 			(at 236.22 123.19 0)
+			(uuid "39316a95-b65f-452a-94f9-e642fd5d309a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "39316a95-b65f-452a-94f9-e642fd5d309a")
 		)
 		(pin "{CAN}" bidirectional
 			(at 203.2 106.68 180)
+			(uuid "f6c0ade7-c1b8-458b-8466-80f8cd1ec8bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f6c0ade7-c1b8-458b-8466-80f8cd1ec8bd")
 		)
 		(instances
 			(project "drs"
@@ -355,6 +387,10 @@
 	(sheet
 		(at 203.2 64.77)
 		(size 33.02 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -384,53 +420,63 @@
 		)
 		(pin "{USB}" input
 			(at 203.2 77.47 180)
+			(uuid "c9153e3c-1284-4fe1-aa84-7c895d6a1615")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c9153e3c-1284-4fe1-aa84-7c895d6a1615")
 		)
 		(pin "{SPI}" bidirectional
 			(at 203.2 69.85 180)
+			(uuid "5cdf2956-fa0f-451e-89da-539f344cadc5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5cdf2956-fa0f-451e-89da-539f344cadc5")
 		)
 		(pin "{PWM}" input
 			(at 203.2 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
 			(uuid "1cdc3259-0e13-48b4-9390-774b70191efd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
-		(pin "{USART1}" bidirectional
+		(pin "{USART1}" input
 			(at 203.2 67.31 180)
+			(uuid "3d3e4374-32cd-40a2-977a-2f32d2a74a64")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "53577bad-c100-4dc7-9dc2-0aedc6f4a476")
 		)
-		(pin "{SW}" bidirectional
+		(pin "{SW}" input
 			(at 203.2 72.39 180)
+			(uuid "59bd9c7f-17e8-4027-9741-96e5ab05bc8b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "33224839-75ad-4605-be17-d756a9c59327")
+		)
+		(pin "RST" output
+			(at 203.2 80.01 180)
+			(uuid "c9f5f254-c710-4c9f-b296-b9f6bb787351")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(instances
 			(project "drs"
@@ -445,4 +491,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

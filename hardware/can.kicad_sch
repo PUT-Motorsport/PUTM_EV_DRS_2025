@@ -2082,7 +2082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ee1d301-030f-44aa-82ae-1583ea727511")
-		(property "Reference" "TP17"
+		(property "Reference" "T17"
 			(at 201.93 116.8399 0)
 			(effects
 				(font
@@ -2133,7 +2133,7 @@
 		(instances
 			(project "drs"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/b1fd2a01-bf35-4031-ba71-28db4e5321a0"
-					(reference "TP17")
+					(reference "T17")
 					(unit 1)
 				)
 			)
@@ -2149,7 +2149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56917a95-fd3a-4671-b452-8b651b12e61f")
-		(property "Reference" "TP14"
+		(property "Reference" "T14"
 			(at 102.87 85.0899 0)
 			(effects
 				(font
@@ -2200,7 +2200,7 @@
 		(instances
 			(project "drs"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/b1fd2a01-bf35-4031-ba71-28db4e5321a0"
-					(reference "TP14")
+					(reference "T14")
 					(unit 1)
 				)
 			)
@@ -2432,7 +2432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72bd21b4-cb13-4fe5-866f-78f607ac07f3")
-		(property "Reference" "TP15"
+		(property "Reference" "T15"
 			(at 130.81 85.0899 0)
 			(effects
 				(font
@@ -2483,7 +2483,7 @@
 		(instances
 			(project "drs"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/b1fd2a01-bf35-4031-ba71-28db4e5321a0"
-					(reference "TP15")
+					(reference "T15")
 					(unit 1)
 				)
 			)
@@ -2599,7 +2599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b572dbf0-0a70-435c-9eb5-56af9747662a")
-		(property "Reference" "TP16"
+		(property "Reference" "T16"
 			(at 201.93 91.4399 0)
 			(effects
 				(font
@@ -2650,7 +2650,7 @@
 		(instances
 			(project "drs"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/b1fd2a01-bf35-4031-ba71-28db4e5321a0"
-					(reference "TP16")
+					(reference "T16")
 					(unit 1)
 				)
 			)

@@ -9462,7 +9462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:MINIASMDC260F162"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 231.14 114.3 0)
 			(effects
 				(font

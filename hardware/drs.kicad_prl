@@ -31,6 +31,7 @@
     "visible_items": [
       "vias",
       "footprint_text",
+      "footprint_anchors",
       "ratsnest",
       "grid",
       "footprints_front",
@@ -43,7 +44,7 @@
       "zones",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffdf",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffff8f",
     "zone_display_mode": 0
   },
   "git": {

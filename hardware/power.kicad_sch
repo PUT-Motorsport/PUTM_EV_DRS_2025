@@ -6917,7 +6917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:VLS6045"
+		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
 			(at 107.95 167.64 0)
 			(effects
 				(font
@@ -10597,7 +10597,7 @@
 		(dnp no)
 		(uuid "94c63ccc-15a6-424f-a564-2203d7491bf5")
 		(property "Reference" "D4"
-			(at 39.624 61.976 90)
+			(at 30.48 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10606,7 +10606,7 @@
 			)
 		)
 		(property "Value" "600W/28V"
-			(at 32.512 56.388 0)
+			(at 33.02 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10772,7 +10772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:MINIASMDC260F162"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 245.11 52.07 0)
 			(effects
 				(font

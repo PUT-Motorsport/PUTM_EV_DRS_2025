@@ -5058,7 +5058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:USB4145030230C"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 88.9 67.31 0)
 			(effects
 				(font
@@ -5131,7 +5131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/GCT/USB4145-03-0070-C?qs=vvQtp7zwQdNoT6Ti9aciDw%3D%3D&srsltid=AfmBOoq0uP6vTzB2zbnWyQUamBuKb60wxEO7ZLPCh7hQgy-ny-YsYWrG"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/datasheet/2/837/GCT_USB4110_Product_Drawing___20k_cycles-3455479.pdf"
 			(at 67.31 57.15 0)
 			(effects
 				(font

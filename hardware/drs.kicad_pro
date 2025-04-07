@@ -524,6 +524,22 @@
         "via_diameter": 0.56,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "diff_pair_gap": 0.11,
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.11
+      },
+      {
+        "diff_pair_gap": 0.215,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.215
       }
     ],
     "meta": {
@@ -531,7 +547,32 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/CAN/TXD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/CAN/RXD"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Connectors/D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Connectors/D+"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN_L"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN_H"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

@@ -570,11 +570,11 @@
       },
       {
         "netclass": "CAN",
-        "pattern": "CAN_N"
+        "pattern": "/CAN/CAN_N"
       },
       {
         "netclass": "CAN",
-        "pattern": "CAN_P"
+        "pattern": "/CAN/CAN_P"
       }
     ]
   },

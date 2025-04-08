@@ -526,20 +526,32 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.15,
         "diff_pair_gap": 0.11,
+        "diff_pair_width": 0.11,
+        "microvia_diameter": 0.2,
+        "microvia_drill": 0.1,
         "name": "CAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.11
+        "track_width": 0.11,
+        "via_diameter": 0.56,
+        "via_drill": 0.3
       },
       {
+        "clearance": 0.15,
         "diff_pair_gap": 0.215,
+        "diff_pair_width": 0.215,
+        "microvia_diameter": 0.2,
+        "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.215
+        "track_width": 0.215,
+        "via_diameter": 0.56,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -548,14 +560,6 @@
     "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "/CAN/TXD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/CAN/RXD"
-      },
       {
         "netclass": "USB",
         "pattern": "/Connectors/D-"
@@ -566,11 +570,11 @@
       },
       {
         "netclass": "CAN",
-        "pattern": "CAN_L"
+        "pattern": "CAN_N"
       },
       {
         "netclass": "CAN",
-        "pattern": "CAN_H"
+        "pattern": "CAN_P"
       }
     ]
   },

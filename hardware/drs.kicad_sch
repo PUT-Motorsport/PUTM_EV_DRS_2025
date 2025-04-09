@@ -114,7 +114,7 @@
 		)
 		(uuid "fdb16200-e3cd-482a-b954-a83b7f8b86e9")
 	)
-	(global_label "CAN_H"
+	(global_label "CAN_P"
 		(shape input)
 		(at 236.22 120.65 0)
 		(fields_autoplaced yes)
@@ -126,7 +126,7 @@
 		)
 		(uuid "37a23eb0-efaf-4164-a23e-94fc8fa84602")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.1924 120.65 0)
+			(at 245.1319 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +136,7 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
+	(global_label "CAN_N"
 		(shape input)
 		(at 236.22 123.19 0)
 		(fields_autoplaced yes)
@@ -148,7 +148,7 @@
 		)
 		(uuid "d2bf2bec-314e-4bfc-a2f2-658af3db8930")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.89 123.19 0)
+			(at 245.1924 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +346,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN_H" bidirectional
+		(pin "CAN_P" bidirectional
 			(at 236.22 120.65 0)
 			(uuid "b27567d2-26fd-4f82-8749-be709511fefd")
 			(effects
@@ -356,7 +356,7 @@
 				(justify right)
 			)
 		)
-		(pin "CAN_L" bidirectional
+		(pin "CAN_N" bidirectional
 			(at 236.22 123.19 0)
 			(uuid "39316a95-b65f-452a-94f9-e642fd5d309a")
 			(effects

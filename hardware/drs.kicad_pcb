@@ -29088,16 +29088,6 @@
 		(layer "Edge.Cuts")
 		(uuid "c53cc0ea-a4d9-4686-8cf4-912cba719d35")
 	)
-	(gr_line
-		(start 177.99099 116)
-		(end 177.99099 116)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c8564518-fb31-44e3-bd09-9ffac4829823")
-	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")

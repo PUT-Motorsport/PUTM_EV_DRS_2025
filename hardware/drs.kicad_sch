@@ -86,16 +86,6 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 69.85) (xy 203.2 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d13b4a07-fcbd-496f-91ad-7b597ad9e483")
-	)
-	(bus
-		(pts
 			(xy 99.06 77.47) (xy 203.2 77.47)
 		)
 		(stroke
@@ -237,16 +227,6 @@
 		(pin "{CAN}" bidirectional
 			(at 99.06 83.82 0)
 			(uuid "c67d35ab-98dd-4f30-9299-5e8794e9f320")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{SPI}" bidirectional
-			(at 99.06 69.85 0)
-			(uuid "ec50c503-4947-49ab-9c03-1b5e2b2ae523")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -421,16 +401,6 @@
 		(pin "{USB}" input
 			(at 203.2 77.47 180)
 			(uuid "c9153e3c-1284-4fe1-aa84-7c895d6a1615")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{SPI}" bidirectional
-			(at 203.2 69.85 180)
-			(uuid "5cdf2956-fa0f-451e-89da-539f344cadc5")
 			(effects
 				(font
 					(size 1.27 1.27)

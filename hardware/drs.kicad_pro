@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|138809010|109070000|ca4ce06c-ac40-4703-9596-e16344948453|06f62075-df9b-406a-a163-c29de99ee595",
-          "it is ok"
-        ],
-        [
-          "hole_clearance|138809010|109070000|ca4ce06c-ac40-4703-9596-e16344948453|872a791e-e89f-496f-8a69-266589129ba1",
-          "it is ok"
-        ],
-        [
-          "hole_clearance|144909010|109070000|8be6e672-8725-4d46-b0d0-c3c5e7c97a7a|0c7614c2-8981-43bd-8d6e-34905301e893",
-          "it is ok"
-        ],
-        [
-          "hole_clearance|144909010|109070000|8be6e672-8725-4d46-b0d0-c3c5e7c97a7a|3b40d92f-20de-4ce4-b503-4ba5a6dd1771",
-          "it is ok"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

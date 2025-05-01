@@ -1956,6 +1956,14 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 175.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3771a400-ab73-491c-a5aa-f07438340691")
 		)
@@ -2191,6 +2199,14 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 200.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3cde8bd5-9595-4208-80d4-b3d4b6da2e32")
 		)
@@ -2290,6 +2306,14 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 104.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bf695bb-2221-4c37-9717-8893a28d610d")
 		)
@@ -2382,6 +2406,14 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 175.26 100.33 0)
 			(effects
 				(font
@@ -2567,6 +2599,14 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25bec434-0d2d-42cb-8fa8-204fbf588557")
 		)
@@ -2662,6 +2702,14 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 129.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 129.54 86.36 0)
 			(effects
 				(font
@@ -2770,6 +2818,14 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 118.11 114.3 0)
 			(effects
 				(font
@@ -2900,6 +2956,14 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 200.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "321a9275-e064-4b62-9f2b-ee47922391ba")
 		)
@@ -3000,6 +3064,14 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 200.66 105.41 0)
 			(effects
 				(font
@@ -3181,6 +3253,14 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 129.54 92.71 0)
 			(effects
 				(font

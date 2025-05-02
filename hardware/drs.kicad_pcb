@@ -4088,7 +4088,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C26"
-			(at -2.1375 0.35 0)
+			(at -0.2375 0.95 90)
 			(layer "F.SilkS")
 			(uuid "95e7fcee-9767-4388-83f7-62bc3a0220e8")
 			(effects
@@ -5088,7 +5088,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C36"
-			(at 0 -1.43 90)
+			(at 1.1 -0.7 270)
 			(layer "F.SilkS")
 			(uuid "d09060da-a9e3-490c-a997-acf2d4089cda")
 			(effects
@@ -19138,7 +19138,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C28"
-			(at 0 -1.43 0)
+			(at 3.05 0 0)
 			(layer "F.SilkS")
 			(uuid "775b895e-5adb-4a54-83e4-46a18009a81d")
 			(effects
@@ -21397,7 +21397,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D6"
-			(at 0.1 1.9 90)
+			(at 1.7 -2.1 180)
 			(layer "F.SilkS")
 			(uuid "8de36257-3198-4340-8c21-b74c3a508d3c")
 			(effects
@@ -24079,7 +24079,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C37"
-			(at 0 -1.68 0)
+			(at 3.4 -0.2 0)
 			(layer "F.SilkS")
 			(uuid "5286c943-9b25-4998-9e96-f94c38446944")
 			(effects

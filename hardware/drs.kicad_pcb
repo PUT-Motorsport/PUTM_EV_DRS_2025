@@ -237,7 +237,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C22"
-			(at -4.0625 3.5875 180)
+			(at -4.2625 3.4875 180)
 			(layer "F.SilkS")
 			(uuid "035cfd51-f17b-4bb7-9fb8-986ac7d40bde")
 			(effects
@@ -1960,8 +1960,8 @@
 		(at 181 107.7)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "GND"
-			(at 2.4 0 0)
+		(property "Reference" "TGND"
+			(at 2.8 0 0)
 			(layer "F.SilkS")
 			(uuid "d7b9418f-74b8-4139-b450-e3f162e074ba")
 			(effects
@@ -3036,8 +3036,8 @@
 		(at 142 85.6)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "T14"
-			(at 0 -1.448 0)
+		(property "Reference" "T+5V"
+			(at 0.4 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "3941ecef-e78a-417e-989e-9f1284332497")
 			(effects
@@ -3262,8 +3262,8 @@
 		(at 169.1 97.7)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "VCC_IN"
-			(at -0.6 1.6 0)
+		(property "Reference" "TVCC"
+			(at -0.2 1.6 0)
 			(layer "F.SilkS")
 			(uuid "996e0bf9-3eb4-4648-8808-704e6923cec9")
 			(effects
@@ -4373,7 +4373,8 @@
 			(effects
 				(font
 					(size 0.7 0.7)
-					(thickness 0.1)
+					(thickness 0.15)
+					(bold yes)
 				)
 			)
 		)
@@ -6230,7 +6231,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D3"
-			(at 2.831582 5.55 180)
+			(at 2.931582 5.55 180)
 			(layer "F.SilkS")
 			(uuid "6e94c971-b83b-497d-9391-e47dec707c73")
 			(effects
@@ -6543,13 +6544,13 @@
 		(at 168.1 105.7)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "T8"
-			(at 0 -1.4 0)
+		(property "Reference" "TVCC"
+			(at -0.1 -1.6 180)
 			(layer "F.SilkS")
 			(uuid "85e30c84-a9ed-40b7-9076-0607e2062d48")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -7766,7 +7767,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C20"
-			(at -4.0625 4.4375 180)
+			(at -4.2625 4.3375 180)
 			(layer "F.SilkS")
 			(uuid "cdb32021-0848-43f0-bf41-41958f518c2a")
 			(effects
@@ -8803,8 +8804,8 @@
 		(at 154 78.4)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "RPP_D"
-			(at 0 -1.448 0)
+		(property "Reference" "TRPP_D"
+			(at 0.4 -1.6 0)
 			(layer "F.SilkS")
 			(uuid "f10cc28c-5d26-42a6-9a47-4f0e9b5330a7")
 			(effects
@@ -12187,7 +12188,7 @@
 		(at 125.6 84.8)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "T16"
+		(property "Reference" "TCAN_N"
 			(at 0 -1.7 0)
 			(layer "F.SilkS")
 			(uuid "067306f9-b227-494d-8661-d7d618c1db9b")
@@ -12984,7 +12985,7 @@
 		(at 176.7 78.3)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "+6V6S2"
+		(property "Reference" "T+6V6S2"
 			(at 0.9 -1.6 0)
 			(layer "F.SilkS")
 			(uuid "f3bcd629-d496-482d-ba7b-2e7a81a4c26d")
@@ -13907,13 +13908,13 @@
 		(at 156.5 105)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "T9"
-			(at 0 -1.448 0)
+		(property "Reference" "TVO_+3V3"
+			(at -1.5 1.7 0)
 			(layer "F.SilkS")
 			(uuid "03499177-4f53-4d0e-a7f4-9236158717ac")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15774,8 +15775,8 @@
 		(at 165.6 77.7)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "+6V6S1"
-			(at 0.7 -1.7 0)
+		(property "Reference" "T+6V6S1"
+			(at 1.1 -1.7 0)
 			(layer "F.SilkS")
 			(uuid "c4ec80ac-7fac-42dc-b21d-0685352578d4")
 			(effects
@@ -17179,7 +17180,7 @@
 		(at 166.9 84.3)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "GND"
+		(property "Reference" "TGND"
 			(at 0 1.8 0)
 			(layer "F.SilkS")
 			(uuid "2a767556-ec5f-4201-8e99-0ce3b81397ba")
@@ -18354,8 +18355,8 @@
 		(at 181.1 104.2)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "+5V_OUT"
-			(at 1.2 -1.6 0)
+		(property "Reference" "T+5V_OUT"
+			(at 1.5 -1.6 0)
 			(layer "F.SilkS")
 			(uuid "fdbe3388-043c-4e43-b8ed-7199a24af2ad")
 			(effects
@@ -21084,7 +21085,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
-			(at 2.831582 5.35 180)
+			(at 2.931582 5.35 180)
 			(layer "F.SilkS")
 			(uuid "b24460f2-ab9b-447f-bc0b-890f26edd3fe")
 			(effects
@@ -22755,8 +22756,8 @@
 		(at 139 84.4)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "T13"
-			(at 0 -1.448 0)
+		(property "Reference" "T+3V3"
+			(at 0.8 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d2415499-acb4-41ea-b518-5a2209f3782e")
 			(effects
@@ -22981,8 +22982,8 @@
 		(at 178.6 85.45)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "T7"
-			(at 1.9 0 0)
+		(property "Reference" "TGND"
+			(at 2.8 0 0)
 			(layer "F.SilkS")
 			(uuid "1b18aff2-45c8-4fc0-b981-a67e3319705d")
 			(effects
@@ -23208,7 +23209,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
-			(at 2.794082 5.75 180)
+			(at 2.894082 5.75 180)
 			(layer "F.SilkS")
 			(uuid "cc9d6aae-872c-4c12-8dfa-98f6171b8498")
 			(effects
@@ -24306,13 +24307,13 @@
 		(at 144.1 105.4)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "T12"
+		(property "Reference" "TVBUS"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "d6f2f299-c2a4-4d67-b1c0-e82b2c750de9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -24889,8 +24890,8 @@
 		(at 179.2 93.3)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "VCC"
-			(at 0 -1.448 0)
+		(property "Reference" "TVCC"
+			(at 0.2 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "85d73b80-45b5-4122-9a00-70c1e55ef557")
 			(effects
@@ -26588,13 +26589,13 @@
 		(at 124.6 90.9)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "T15"
-			(at 0 1.9 0)
+		(property "Reference" "TCAN_P"
+			(at 0.8 1.7 0)
 			(layer "F.SilkS")
 			(uuid "8e434c96-dbc4-4257-a24c-f4f123d9f3e3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -29006,7 +29007,7 @@
 		(at 155.3 111.5)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "+5V"
+		(property "Reference" "T+5V"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "537477d4-90d0-4f77-980b-310e204868fd")
@@ -31202,8 +31203,8 @@
 		(uuid "1b18280b-871d-4ad7-8104-b8ffe9b09247")
 	)
 	(gr_rect
-		(start 120.9 89.6)
-		(end 123.1 94.4)
+		(start 120.8 89.6)
+		(end 123 94.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31224,8 +31225,8 @@
 		(uuid "38740379-da07-4834-9163-5239fd9477f4")
 	)
 	(gr_line
-		(start 168.7 78.9)
-		(end 169.1 78.5)
+		(start 168.9 79)
+		(end 169.3 78.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31234,8 +31235,8 @@
 		(uuid "3a2f2b6e-9770-4d86-907c-d73eed7529f2")
 	)
 	(gr_rect
-		(start 169.1 75.4)
-		(end 172.4 78.5)
+		(start 169.3 75.5)
+		(end 172.6 78.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31330,8 +31331,8 @@
 		(uuid "9ced134c-7bb4-4b71-84f3-4491c34e27af")
 	)
 	(gr_line
-		(start 123.1 94.4)
-		(end 123.5 94.8)
+		(start 123 94.4)
+		(end 123.4 94.8)
 		(stroke
 			(width 0.1)
 			(type default)

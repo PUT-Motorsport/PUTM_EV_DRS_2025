@@ -6714,7 +6714,7 @@
 				)
 			)
 		)
-		(property "Value" "T_+5V"
+		(property "Value" "TP_+5V"
 			(at 179.07 118.745 90)
 			(effects
 				(font

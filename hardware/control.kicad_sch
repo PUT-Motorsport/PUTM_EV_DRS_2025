@@ -3026,16 +3026,6 @@
 		)
 		(uuid "175adff7-38ba-4273-ac2a-bf8197a91152")
 	)
-	(label "PWM1"
-		(at 186.69 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26c4ef3b-726e-4415-a329-2433f38ca13d")
-	)
 	(label "D-"
 		(at 175.26 116.84 0)
 		(effects
@@ -3046,15 +3036,15 @@
 		)
 		(uuid "2b58ecf4-1b8c-4672-84f4-4a75a388c1b6")
 	)
-	(label "PWM2"
-		(at 186.69 93.98 180)
+	(label "PWM1"
+		(at 175.26 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "68cee9d8-5389-4f87-a126-f2490931489e")
+		(uuid "7185b19c-cdd2-4970-a41a-bdce517780d8")
 	)
 	(label "{SW}"
 		(at 199.39 121.92 180)
@@ -3085,6 +3075,16 @@
 			(justify left bottom)
 		)
 		(uuid "ab7c7e02-299c-4888-b8ee-5abd26642806")
+	)
+	(label "PWM2"
+		(at 175.26 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b731d8b2-117a-41a4-8808-04d00c32f8fc")
 	)
 	(label "RX"
 		(at 125.73 121.92 0)

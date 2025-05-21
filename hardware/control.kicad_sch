@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "6e5be7c7-4a60-402b-864f-ec2bae7dc2b7")
 	(paper "A4")
+	(title_block
+		(title "DRS - Drag Reduction System")
+		(date "2024-11-28")
+		(rev "${REVISION}")
+		(company "Author: Grzegorz Potocki")
+		(comment 1 "Reviewer: Jakub Drankiewicz")
+	)
 	(lib_symbols
 		(symbol "+5V_1"
 			(power)

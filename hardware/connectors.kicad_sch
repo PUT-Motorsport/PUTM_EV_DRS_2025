@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "e79546b0-9a59-4f87-bfa9-1bac9a3ae544")
 	(paper "A4")
+	(title_block
+		(title "DRS - Drag Reduction System")
+		(date "2024-11-28")
+		(rev "${REVISION}")
+		(company "Author: Grzegorz Potocki")
+		(comment 1 "Reviewer: Jakub Drankiewicz")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Small"
 			(pin_numbers

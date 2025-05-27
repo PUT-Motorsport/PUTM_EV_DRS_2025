@@ -28,7 +28,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdbool.h>
-#include "PUTM_EV_CAN_LIBRARY_2024/lib/can_interface.hpp"
+//#include "PUTM_EV_CAN_LIBRARY_2024/lib/can_interface.hpp"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -101,19 +101,7 @@ uint8_t brake_pressure;
   MX_TIM3_Init();
   MX_CAN1_Init();
   /* USER CODE BEGIN 2 */
-//	uint16_t AngleToPWM(uint8_t angle) {
-//		if (angle > 180)
-//			angle = 180;
-//		return 800 + ((uint32_t) angle * (2200 - 800)) / 180;
-//	}
-//
-//	void Set_Servo_Angle(uint8_t angle) {
-//		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, AngleToPWM(angle));
-//	}
-
 	HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
-//	Min. 320, max. 880
-//	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 380);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -122,15 +110,10 @@ uint8_t brake_pressure;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 624);
-		HAL_Delay(2000);
-		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 320);
-		HAL_Delay(2000);
-
 	    if (drs_on && brake_pressure < 100) {
-	        //TODO: lotka się podnosi
+	    	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 624);
 	    } else {
-	    	//TODO: lotka się opuszcza
+	    	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 320);
 	    }
 	}
   /* USER CODE END 3 */

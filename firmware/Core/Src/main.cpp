@@ -28,7 +28,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdbool.h>
-//#include "PUTM_EV_CAN_LIBRARY_2024/lib/can_interface.hpp"
+#include "Core/Inc/PUTM_EV_CAN_LIBRARY_2024/lib/can_interface.hpp"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -49,7 +49,9 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+bool drs_status;
+uint16_t brakePressureFront;
+uint16_t brakePressureRear;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -71,8 +73,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-bool drs_on;
-uint8_t brake_pressure;
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -107,14 +108,36 @@ uint8_t brake_pressure;
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 	while (1) {
+
+		//CAN
+		if(PUTM_CAN::can.get_dashboard_new_data())
+		{
+		  auto dash_data=PUTM_CAN::can.get_dashboard();
+		  drs_status = dash_data.drs_button;
+		}
+
+		if(PUTM_CAN::can.gget_driver_input_main_new_data())
+		{
+		  auto driver_input_data=PUTM_CAN::can.get_driver_input_main();
+		  brakePressureFront= driver_input_data.brakePressureFront;
+		  brakePressureRear= driver_input_data.brakePressureRear;
+		}
+
+
+		//Tu masz ustawić odpowiedni warunek otworzenia lotki
+		//drs ON + brak hamowania!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	    if (drs_on && brake_pressure < 100)
+	    {
+	    	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 624);
+	    }
+	    else
+	    {
+	    	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 320);
+	    }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	    if (drs_on && brake_pressure < 100) {
-	    	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 624);
-	    } else {
-	    	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 320);
-	    }
+
 	}
   /* USER CODE END 3 */
 }

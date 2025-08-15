@@ -52,9 +52,9 @@ TIM_HandleTypeDef htim3;
 UART_HandleTypeDef huart3;
 
 /* USER CODE BEGIN PV */
-bool drs_status;
-uint16_t brakePressureFront;
-uint16_t brakePressureRear;
+bool drs_status = false;
+uint16_t brakePressureFront = 0;
+uint16_t brakePressureRear = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -107,6 +107,23 @@ int main(void)
   MX_USART3_UART_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
+  /*GROK*/
+  FDCAN_FilterTypeDef sFilterConfig;
+  sFilterConfig.IdType = FDCAN_STANDARD_ID;
+  sFilterConfig.FilterIndex = 0;
+  sFilterConfig.FilterType = FDCAN_FILTER_MASK;
+  sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;
+  sFilterConfig.FilterID1 = 0x000;  // Accept all (mask start)
+  sFilterConfig.FilterID2 = 0x000;  // Accept all (mask end)
+  if (HAL_FDCAN_ConfigFilter(&hfdcan1, &sFilterConfig) != HAL_OK) {
+    Error_Handler();
+  }
+
+  if (HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0) != HAL_OK) {
+    Error_Handler();
+  }
+  /*GROK*/
+
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_3);
   HAL_FDCAN_Start(&hfdcan1);
   /* USER CODE END 2 */
@@ -115,50 +132,52 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  // LED TEST
-	  //	  	  HAL_GPIO_TogglePin(LED_OK_GPIO_Port, LED_OK_Pin); // Toggle LED_OK
-	  //	  	  HAL_Delay(500);
-	  //	  	  HAL_GPIO_TogglePin(LED_ERR_GPIO_Port, LED_ERR_Pin);
-	  //	  	  HAL_Delay(500);
-	  //	  	  HAL_GPIO_TogglePin(LED_WRN_GPIO_Port, LED_WRN_Pin); // Toggle LED_WRN
-	  //	  	  HAL_Delay(500);
+	  	  	  	  // LED TEST
+//	  	  	  	  HAL_GPIO_TogglePin(LED_OK_GPIO_Port, LED_OK_Pin); // Toggle LED_OK
+//	  	  	  	  HAL_Delay(500);
+//	  	  	  	  HAL_GPIO_TogglePin(LED_ERR_GPIO_Port, LED_ERR_Pin);
+//	  	  	  	  HAL_Delay(500);
+//	  	  	  	  HAL_GPIO_TogglePin(LED_WRN_GPIO_Port, LED_WRN_Pin); // Toggle LED_WRN
+//	  	  	  	  HAL_Delay(500);
 
-	  	  	  // SERVO TEST 1
-	  //	  	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 5550); //NEUTRAL
-	  //	  	  HAL_Delay(2000);
-	  //	  	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 9859); //MAX
-	  //	  	  HAL_Delay(2000);
-	  	  	  // SERVO & DIODE TEST
-	  //			__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 3700); //MIN
-	  //			HAL_GPIO_TogglePin(LED_OK_GPIO_Port, LED_OK_Pin);
-	  //			HAL_Delay(1000);
-	  //			__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 6818); //NEUTRAL BY CALCULATIONS
-	  //			HAL_GPIO_TogglePin(LED_ERR_GPIO_Port, LED_ERR_Pin);
-	  //			HAL_Delay(1000);
-	  	  	  // CAN
-	  	  	  if(PUTM_CAN::can.get_dashboard_new_data())
-	  	  	  {
-	  	  		  auto dash_data=PUTM_CAN::can.get_dashboard();
-	  	  		  drs_status = dash_data.drs_button;
-	  	  	  }
+	  	  	  	  // SERVO TEST 1
+//	  	  	  	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, SERVO_POSITION_NEUTRAL); //NEUTRAL
+//	  	  	  	  HAL_Delay(2000);
+//	  	  	  	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, SERVO_POSITION_OPEN); //MAX
+//	  	  	  	  HAL_Delay(2000);
+	  	  	  	  // SERVO & DIODE TEST
+//	  	  		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 3700); //MIN
+//	  	  		  HAL_GPIO_TogglePin(LED_OK_GPIO_Port, LED_OK_Pin);
+//	  	  		  HAL_Delay(1000);
+//	  	  		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 6818); //NEUTRAL BY CALCULATIONS
+//	  	  		  HAL_GPIO_TogglePin(LED_ERR_GPIO_Port, LED_ERR_Pin);
+//	  	  		  HAL_Delay(1000);
+	  	  	  	  // CAN
+	  	  	  	  if(PUTM_CAN::can.get_dashboard_new_data())
+	  	  	  	  {
+	  	  	  		  auto dash_data = PUTM_CAN::can.get_dashboard();
+	  	  	  		  drs_status = dash_data.drs_button;
+	  	  	  	  }
 
-	  	  	  if(PUTM_CAN::can.get_driver_input_main_new_data())
-	  	  	  {
-	  	  		  auto driver_input_data=PUTM_CAN::can.get_driver_input_main();
-	  	  		  brakePressureFront = driver_input_data.brakePressureFront;
-	  	  		  brakePressureRear = driver_input_data.brakePressureRear;
-	  	  	  }
-	  	  	  // Tu masz ustawic odpowiedni warunek otworzenia lotki
-	  	  	  // drs ON + brak hamowania!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-	  	  	  if (drs_status)
-	  	  	  {
-	  	  		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, SERVO_POSITION_OPEN);
-	  	  	  }
-	  	  	  else
-	  	  	  {
-	  	  		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, SERVO_POSITION_CLOSED);
-	  	  	  }
-	  	  	  HAL_Delay(10);
+//	  	  	  	  if(PUTM_CAN::can.get_driver_input_main_new_data())
+//	  	  	  	  {
+//	  	  	  		  auto driver_input_data = PUTM_CAN::can.get_driver_input_main();
+//	  	  	  		  brakePressureFront = driver_input_data.brakePressureFront;
+//	  	  	  		  brakePressureRear = driver_input_data.brakePressureRear;
+//	  	  	  	  }
+	  	  	  	  // Tu masz ustawic odpowiedni warunek otworzenia lotki
+	  	  	  	  // drs ON + brak hamowania!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	  	  	  	  if(drs_status)
+	  	  	  	  {
+	  	  	  		  HAL_GPIO_WritePin(LED_OK_GPIO_Port, LED_OK_Pin, GPIO_PIN_RESET);
+	  	  	  		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, SERVO_POSITION_NEUTRAL);
+	  	  	  	  }
+	  	  	  	  else
+	  	  	  	  {
+	  	  	  		  HAL_GPIO_WritePin(LED_ERR_GPIO_Port, LED_ERR_Pin, GPIO_PIN_RESET);
+	  	  	  		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, SERVO_POSITION_CLOSED);
+	  	  	  	  }
+//	  	  	  	  HAL_Delay(10);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -230,8 +249,8 @@ static void MX_FDCAN1_Init(void)
   hfdcan1.Init.ProtocolException = DISABLE;
   hfdcan1.Init.NominalPrescaler = 4;
   hfdcan1.Init.NominalSyncJumpWidth = 1;
-  hfdcan1.Init.NominalTimeSeg1 = 2;
-  hfdcan1.Init.NominalTimeSeg2 = 1;
+  hfdcan1.Init.NominalTimeSeg1 = 1;
+  hfdcan1.Init.NominalTimeSeg2 = 2;
   hfdcan1.Init.DataPrescaler = 1;
   hfdcan1.Init.DataSyncJumpWidth = 1;
   hfdcan1.Init.DataTimeSeg1 = 1;
@@ -415,6 +434,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
   __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOD_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, LED_ERR_Pin|LED_OK_Pin, GPIO_PIN_RESET);
@@ -459,8 +479,7 @@ void Error_Handler(void)
   }
   /* USER CODE END Error_Handler_Debug */
 }
-
-#ifdef  USE_FULL_ASSERT
+#ifdef USE_FULL_ASSERT
 /**
   * @brief  Reports the name of the source file and the source line number
   *         where the assert_param error has occurred.

@@ -107,23 +107,6 @@ int main(void)
   MX_USART3_UART_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-  /*GROK*/
-  FDCAN_FilterTypeDef sFilterConfig;
-  sFilterConfig.IdType = FDCAN_STANDARD_ID;
-  sFilterConfig.FilterIndex = 0;
-  sFilterConfig.FilterType = FDCAN_FILTER_MASK;
-  sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;
-  sFilterConfig.FilterID1 = 0x000;  // Accept all (mask start)
-  sFilterConfig.FilterID2 = 0x000;  // Accept all (mask end)
-  if (HAL_FDCAN_ConfigFilter(&hfdcan1, &sFilterConfig) != HAL_OK) {
-    Error_Handler();
-  }
-
-  if (HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0) != HAL_OK) {
-    Error_Handler();
-  }
-  /*GROK*/
-
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_3);
   HAL_FDCAN_Start(&hfdcan1);
   /* USER CODE END 2 */
@@ -153,18 +136,12 @@ int main(void)
 //	  	  		  HAL_GPIO_TogglePin(LED_ERR_GPIO_Port, LED_ERR_Pin);
 //	  	  		  HAL_Delay(1000);
 	  	  	  	  // CAN
-	  	  	  	  if(PUTM_CAN::can.get_dashboard_new_data())
+	  	  	  	  if(PUTM_CAN::can.get_driver_input_main_new_data())
 	  	  	  	  {
-	  	  	  		  auto dash_data = PUTM_CAN::can.get_dashboard();
-	  	  	  		  drs_status = dash_data.drs_button;
+	  	  	  		  auto driver_input_data = PUTM_CAN::can.get_driver_input_main();
+	  	  	  		  brakePressureFront = driver_input_data.brakePressureFront;
+	  	  	  		  brakePressureRear = driver_input_data.brakePressureRear;
 	  	  	  	  }
-
-//	  	  	  	  if(PUTM_CAN::can.get_driver_input_main_new_data())
-//	  	  	  	  {
-//	  	  	  		  auto driver_input_data = PUTM_CAN::can.get_driver_input_main();
-//	  	  	  		  brakePressureFront = driver_input_data.brakePressureFront;
-//	  	  	  		  brakePressureRear = driver_input_data.brakePressureRear;
-//	  	  	  	  }
 	  	  	  	  // Tu masz ustawic odpowiedni warunek otworzenia lotki
 	  	  	  	  // drs ON + brak hamowania!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	  	  	  	  if(drs_status)
@@ -247,9 +224,9 @@ static void MX_FDCAN1_Init(void)
   hfdcan1.Init.AutoRetransmission = DISABLE;
   hfdcan1.Init.TransmitPause = DISABLE;
   hfdcan1.Init.ProtocolException = DISABLE;
-  hfdcan1.Init.NominalPrescaler = 4;
+  hfdcan1.Init.NominalPrescaler = 2;
   hfdcan1.Init.NominalSyncJumpWidth = 1;
-  hfdcan1.Init.NominalTimeSeg1 = 1;
+  hfdcan1.Init.NominalTimeSeg1 = 5;
   hfdcan1.Init.NominalTimeSeg2 = 2;
   hfdcan1.Init.DataPrescaler = 1;
   hfdcan1.Init.DataSyncJumpWidth = 1;
